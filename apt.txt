@@ -1,3 +1,5 @@
 gsl-bin
 libgsl0-dev
 libglpk-dev
+tesseract-ocr
+tesseract-orc-eng
