@@ -1,94 +1,98 @@
-install.packages("adehabitatHR")
-install.packages('Boruta')
-install.packages('caret')
-install.packages('car')
-install.packages('coop')
-install.packages('dplyr')
-install.packages('DescTools')
-install.packages('flextable')
-install.packages('GGally')
-install.packages('ggplot2')
-install.packages('ggdendro')
-install.packages('ggmap')
-install.packages('ggparty')
-install.packages('ggpubr')
-install.packages('ggraph')
-install.packages('ggridges')
-install.packages('ggspatial')
-install.packages('glmmTMB')
-install.packages('gridExtra')
-install.packages('gutenbergr')
-install.packages('here')
-install.packages('hunspell')
-install.packages('Hmisc')
-install.packages('igraph')
-install.packages("ipa")
-install.packages("janitor")
-install.packages("koRpus")
-install.packages('lda')
-install.packages('ldatuning')
-install.packages('leaflet')
-install.packages('likert')
-install.packages("lme4")
-install.packages('magrittr')
-install.packages('maptools')
-install.packages('Matrix')
-install.packages('network')
-install.packages('NLP')
-install.packages('openxlsx')
-install.packages('party')
-install.packages('quanteda')
-install.packages('quanteda.textplots')
-install.packages('quanteda.textstats')
-install.packages('pals')
-install.packages('partykit')
-install.packages('pdp')
-install.packages("phonR")
-install.packages("phonTools")
-install.packages('randomForest')
-install.packages('raster')
-install.packages('RColorBrewer')
-install.packages('readxl')
-install.packages("report")
-install.packages('reshape2')
-install.packages('rgdal')
-install.packages('Rmisc')
-install.packages('rnaturalearth')
-install.packages("rPraat")
-install.packages('rstudioapi')
-install.packages('sandwich')
-install.packages('scales')
-install.packages('sentimentr')
-install.packages('sf')
-install.packages("sjPlot")
-install.packages("sm")
-install.packages('sna')
-install.packages('SnowballC')
-install.packages('spData')
-install.packages('spDataLarge')
-install.packages('stringi')
-install.packages('stringr')
-install.packages('tesseract')
-install.packages('textdata')
-install.packages('textplot')
-install.packages('tibble')
-install.packages('tidygraph')
-install.packages('tidyr')
-install.packages('tidytext')
-install.packages('tidyverse')
-install.packages('tm')
-install.packages('tmap')
-install.packages('tokenizers')
-install.packages('topicmodels')
-install.packages("tuneR")
-install.packages('udpipe')
-install.packages('vcd')
-install.packages('vip')
-install.packages("viridis")
-install.packages("vowels")
-install.packages('wordcloud')
-install.packages('wordcloud2')
-install.packages("wrassp")
-install.packages('xlsx')
-install.packages('zoo')
+options(Ncpus = 4)
+install.packages(
+	c("adehabitatHR", 
+	'Boruta', 
+	'caret', 
+	'car', 
+	'coop', 
+	'dplyr', 
+	'DescTools', 
+	'flextable', 
+	'GGally', 
+	'ggplot2', 
+	'ggdendro', 
+	'ggmap', 
+	'ggparty', 
+	'ggpubr', 
+	'ggraph', 
+	'ggridges', 
+	'ggspatial', 
+	'glmmTMB', 
+	'gridExtra', 
+	'gutenbergr', 
+	'here', 
+	'hunspell', 
+	'Hmisc', 
+	'igraph', 
+	"ipa", 
+	"janitor", 
+	"koRpus", 
+	'lda', 
+	'ldatuning', 
+	'leaflet', 
+	'likert', 
+	"lme4", 
+	'magrittr', 
+	'maptools', 
+	'Matrix', 
+	'network', 
+	'NLP', 
+	'openxlsx', 
+	'party', 
+	'quanteda', 
+	'quanteda.textplots', 
+	'quanteda.textstats', 
+	'pals', 
+	'partykit', 
+	'pdp', 
+	"phonR", 
+	"phonTools", 
+	'randomForest', 
+	'raster', 
+	'RColorBrewer', 
+	'readxl', 
+	"report", 
+	'reshape2', 
+	'rgdal', 
+	'Rmisc', 
+	'rnaturalearth', 
+	"rPraat", 
+	'rstudioapi', 
+	'sandwich', 
+	'scales', 
+	'sentimentr', 
+	'sf', 
+	"sjPlot", 
+	"sm", 
+	'sna', 
+	'SnowballC', 
+	'spData', 
+	'spDataLarge', 
+	'stringi', 
+	'stringr', 
+	'tesseract', 
+	'textdata', 
+	'textplot', 
+	'tibble', 
+	'tidygraph', 
+	'tidyr', 
+	'tidytext', 
+	'tidyverse', 
+	'tm', 
+	'tmap', 
+	'tokenizers', 
+	'topicmodels', 
+	"tuneR", 
+	'udpipe', 
+	'vcd', 
+	'vip', 
+	"viridis", 
+	"vowels", 
+	'wordcloud', 
+	'wordcloud2', 
+	"wrassp", 
+	'xlsx', 
+	'zoo')
+)
+
 
