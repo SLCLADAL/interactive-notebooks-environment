@@ -92,6 +92,7 @@ install.packages("vowels")
 install.packages('wordcloud')
 install.packages('wordcloud2')
 install.packages("wrassp")
+install.packages("writexl")
 install.packages('xlsx')
 install.packages('zoo')
 
